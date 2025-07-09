@@ -3,7 +3,7 @@
 
 
 @keyframes fadeIn {
-    0% {transform: translate3d(0px, 30px, 0px); }
+    0% {transform: translate3d(0px, 20px, 0px); }
     100% { opacity: 1; transform: translate3d(0px, 0px, 0px); }
 }
 @keyframes fadeInDown {
@@ -18,3 +18,94 @@
     0% { opacity: 0; transform: translate3d(-30px, 0, 0px); }
     100% { opacity: 1; transform: translate3d(0px, 0px, 0px); }
 }
+@keyframes shine {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes blink {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+}
+@keyframes mouseMove {
+    0%, 100% { transform: translateY(0); opacity: 0.7; }
+    50% { transform: translateY(3px); opacity: 1; }
+}
+@keyframes mouseMove2 {
+    0%, 100% { transform: translateY(0);  }
+    50% { transform: translateY(0.5px);  }
+}
+/* common */
+section.sec2 .pk_title_box .text_1 { opacity: 0; }
+section.sec2.on .pk_title_box .text_1  { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+section.sec3 .pk_title_box .text_1 { opacity: 0; }
+section.sec3.on .pk_title_box .text_1  { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+section.sec4 .pk_title_box .text_1 { opacity: 0; }
+section.sec4.on .pk_title_box .text_1  { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+section.sec5 .pk_title_box .text_1 { opacity: 0; }
+section.sec5.on .pk_title_box .text_1  { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+section.sec2 .pk_title_box .text_2 { opacity: 0; }
+section.sec2.on .pk_title_box .text_2  { animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+section.sec3 .pk_title_box .text_2 { opacity: 0; }
+section.sec3.on .pk_title_box .text_2  { animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+section.sec4 .pk_title_box .text_2 { opacity: 0; }
+section.sec4.on .pk_title_box .text_2  { animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+section.sec5 .pk_title_box .text_2 { opacity: 0; }
+section.sec5.on .pk_title_box .text_2  { animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+
+section.sec2 .pk_title_box .text_3 { opacity: 0; }
+section.sec2.on .pk_title_box .text_3  { animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+section.sec3 .pk_title_box .text_3 { opacity: 0; }
+section.sec3.on .pk_title_box .text_3  { animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+section.sec4 .pk_title_box .text_3 { opacity: 0; }
+section.sec4.on .pk_title_box .text_3  { animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+section.sec5 .pk_title_box .text_3 { opacity: 0; }
+section.sec5.on .pk_title_box .text_3  { animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+
+
+/* sec1 */
+
+section.sec1 .sec1_div .text_1 { opacity: 0; }
+section.sec1.on .sec1_div .text_1 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+section.sec1 .sec1_div .text_1 { opacity: 0; }
+section.sec1.on .sec1_div .text_1 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+section.sec1 .sec1_div .text_2 { opacity: 0; }
+section.sec1.on .sec1_div .text_2 { animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+section.sec1 .sec1_div .text_3 { opacity: 0; }
+section.sec1.on .sec1_div .text_3 { animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+section.sec1 .sec1_div .home_btn { opacity: 0; }
+section.sec1.on .sec1_div .home_btn { animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+
+section.sec1 .sec1_div .scroll_div .mouse { animation: mouseMove 1.5s ease-in-out infinite alternate; }
+section.sec1 .sec1_div .scroll_div .scroll_1 { animation: blink 1.5s ease-in-out infinite; }
+section.sec1 .sec1_div .scroll_div .scroll_2 { animation: blink 1.5s ease-in-out 0.5s infinite; }
+section.sec1 .sec1_div .scroll_div .scroll_3 { animation: blink 1.5s ease-in-out 0.8s infinite; }
+section.sec1 .sec1_div .scroll_div .scroll_text { animation: blink 1.5s ease-in-out  infinite; }
+
+/* sec2 */
+section.sec2 .sec2_div .sec2_img { opacity: 0; }
+section.sec2 .sec2_div.on .sec2_img { animation: fadeIn 0.5s ease-in-out .2s 1 forwards running; }
+section.sec2 .sec2_div .text_box { opacity: 0; }
+section.sec2 .sec2_div.on .text_box { animation: fadeIn 0.5s ease-in-out .2s 1 forwards running; }
+
+/* sec3 */
+section.sec3 ul { opacity: 0; }
+section.sec3 ul.on { animation: fadeInDown 0.5s ease-in-out .3s 1 forwards running; }
+section.sec3 .text_4 { opacity: 0; }
+section.sec3 .text_4.on { animation: fadeIn 0.5s ease-in-out .4s 1 forwards running; }
+
+/* sec4 */
+section.sec4 ul li:nth-child(1) { opacity: 0; }
+section.sec4 ul li:nth-child(1).on  { animation: fadeInDown 0.5s ease-in-out .1s 1 forwards running; }
+section.sec4 ul li:nth-child(2) { opacity: 0; }
+section.sec4 ul li:nth-child(2).on  { animation: fadeInDown 0.5s ease-in-out .2s 1 forwards running; }
+section.sec4 ul li:nth-child(3) { opacity: 0; }
+section.sec4 ul li:nth-child(3).on  { animation: fadeInDown 0.5s ease-in-out .3s 1 forwards running; }
+section.sec4 ul li:nth-child(4) { opacity: 0; }
+section.sec4 ul li:nth-child(4).on  { animation: fadeInDown 0.5s ease-in-out .4s 1 forwards running; }
+
+/* sec5 */
+section.sec5 .sec5_div .map_div { opacity: 0; }
+section.sec5 .sec5_div.on .map_div { animation: fadeInDown 0.5s ease-in-out .1s 1 forwards running; }
+section.sec5 .sec5_div .info_div { opacity: 0; }
+section.sec5 .sec5_div.on .info_div { animation: fadeInDown 0.5s ease-in-out .3s 1 forwards running; }
