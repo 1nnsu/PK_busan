@@ -109,3 +109,11 @@ section.sec5 .sec5_div .map_div { opacity: 0; }
 section.sec5 .sec5_div.on .map_div { animation: fadeInDown 0.5s ease-in-out .1s 1 forwards running; }
 section.sec5 .sec5_div .info_div { opacity: 0; }
 section.sec5 .sec5_div.on .info_div { animation: fadeInDown 0.5s ease-in-out .3s 1 forwards running; }
+
+
+/* === PK_7 === */
+.PK_7 section.sec4 .pk_title_box .text_4 { opacity: 0; }
+.PK_7 section.sec4.on .pk_title_box .text_4 { animation: fadeInDown 0.5s ease-in-out .2s 1 forwards running; }
+
+.PK_7 section.sec4 .pro_div { opacity: 0; }
+.PK_7 section.sec4.on .pro_div { animation: fadeInDown 0.5s ease-in-out .4s 1 forwards running; }

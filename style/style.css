@@ -606,6 +606,30 @@ footer .footer_div2 .copyright { font-size: 14px; font-weight: 400; opacity: .4;
 .PK_5 section.sec5 .sec5_div .info_div button.pk_btn { background-color: #006CA9; }
 .PK_5 section.sec5 .sec5_div .info_div .imgBox ul li .item .iconBox { color: #006CA9; }
 
+/* 7/21 */
+.PK_5 section.sec2 .sec2_div { gap: unset; align-items: unset; justify-content: space-between; }
+.PK_5 section.sec2 .text_box { height: 100%; }
+.PK_5 section.sec2 ul.sec2_content1 { width: 680px; display: flex; flex-direction: column; justify-content: space-between; }
+.PK_5 section.sec2 ul.sec2_content1 li {  padding: 30px; background-color: #034163; border-radius: 10px; background: #034163 url('../img/main/PK_5/sec2/sec2_img2.png') no-repeat right 60px center / 116px; }
+.PK_5 section.sec2 ul.sec2_content1 li .item {  }
+.PK_5 section.sec2 ul.sec2_content1 li .item .name { font-size: 24px; margin: 15px 0; }
+.PK_5 section.sec2 ul.sec2_content1 li .item .name_text { font-size: 18px; }
+.PK_5 section.sec2 ul.sec2_content1 li .item .content1_text { font-size: 18px; line-height: 1.6; }
+
+.PK_5 section.sec2 ul.sec2_content2 { width: calc(100% + 10px); margin-left: -5px; display: flex; flex-wrap: wrap;   margin-top: 20px;}
+.PK_5 section.sec2 ul.sec2_content2 li {  padding: 5px; width: calc(100%/3); }
+.PK_5 section.sec2 ul.sec2_content2 li .item { padding: 10px; height: 100%; background-color: #197AB1; display: flex; justify-content: center; align-items: center; border-radius: 10px; }
+.PK_5 section.sec2 ul.sec2_content2 li .item .content2_text { font-size: 24px; text-align: center; font-weight: 700; }
+
+.PK_5 section.sec4 .sec4_div { position: relative; padding: 45px; background: linear-gradient(107deg, #FFF 10%, #D2E5F0 90%); display: flex; flex-direction: column; gap: 30px; border-radius: 10px; margin-top: 20px; }
+.PK_5 section.sec4 .sec4_div .sec4_content {  padding-bottom: 20px; border-bottom: 1px solid #E4E4E4; }
+.PK_5 section.sec4 .sec4_div .sec4_content .sec4_bg { position: absolute; bottom: 70px; right: 70px; }
+.PK_5 section.sec4 .sec4_div .sec4_content .content_title { font-size: 24px; color: #011839; margin-bottom: 15px; }
+.PK_5 section.sec4 .sec4_div .sec4_content .content_text { font-size: 24px; color: #7F7F7F; line-height: 1.5; }
+.PK_5 section.sec4 .sec4_div .sec4_content .dark_blue { color: #006CA9; }
+.PK_5 section.sec4 .sec4_div .sec4_content .dark_blue2 { color: #006CA9; font-weight: 700; }
+.PK_5 section.sec4 .sec4_div .sec4_content.sec4_content3 { border-bottom: none; }
+
 /* === PK_6 ==== */ 
 .PK_6 section.sec1 .sec1_div .text_3 { background-color: #212121; }
 .PK_6 section.sec1 .sec1_div .text_3 .sky { color: #F14C4C; }
@@ -690,6 +714,7 @@ footer .footer_div2 .copyright { font-size: 14px; font-weight: 400; opacity: .4;
 .PK_7 section.sec1 .sec1_div .text_1 { color: #222; }
 .PK_7 section.sec1 .sec1_div .text_2 { color: #222; }
 .PK_7 section.sec1 .under { background: linear-gradient(to top, #E3D3B8 35%, transparent 35%); padding: 0 5px; }
+.PK_7 section.sec2 .under { background: linear-gradient(to top, #E3D3B8 35%, transparent 35%); padding: 0 5px; }
 .PK_7 section.sec1.on .sec1_div .text_3 { background-color: #222; }
 .PK_7 section.sec1.on .sec1_div .home_btn { box-shadow: 5px 7px 10px 0px rgba(0, 0, 0, 0.25); }
 
@@ -700,13 +725,13 @@ footer .footer_div2 .copyright { font-size: 14px; font-weight: 400; opacity: .4;
 .PK_7 section.sec2 .sec2_stick { margin: 30px auto; max-width: 1040px; width: 100%; height: 2px; background-color: #D5C6AD; }
 .PK_7 section.sec2 .sec2_div { }
 .PK_7 section.sec2 .sec2_div .text_box { margin: 0; }
-.PK_7 section.sec2 .sec2_div .text_1 { font-size: 18px; line-height: 150%;}
+.PK_7 section.sec2 .sec2_div .text_1 { font-size: 22px; line-height: 150%;}
 .PK_7 section.sec2 .sec2_div .text_2_box { display: flex; align-items: center; justify-content: center; text-align: center; gap: 50px; }
 .PK_7 section.sec2 .sec2_div .text_2_box .text_2 { font-size: 22px; }
 .PK_7 section.sec2 .sec2_div .text_2_box .text_2 b { font-size: 32px; }
-.PK_7 section.sec2 .sec2_div .text_3_box { padding: 30px; background-color: #B99D87; color: #fff; display: flex; align-items: flex-start; justify-content: center; text-align: center; }
+.PK_7 section.sec2 .sec2_div .text_3_box { gap: 5vw; padding: 30px; background-color: #B99D87; color: #fff; display: flex; align-items: flex-start; justify-content: center; text-align: center; }
 .PK_7 section.sec2 .sec2_div .text_3_box .text_3 { font-size: 18px; }
-.PK_7 section.sec2 .sec2_div .text_3_box .text_3 .big { font-size: 32px; font-weight: 700; }
+.PK_7 section.sec2 .sec2_div .text_3_box .text_3 .big { font-size: 32px; font-weight: 700; color: #222; }
 .PK_7 section.sec2 .sec2_div .text_3_box .text_3 b { font-size: 18px; }
 
 .PK_7 section.sec3 { color: #222; }
