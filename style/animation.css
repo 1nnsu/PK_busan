@@ -111,6 +111,34 @@ section.sec5 .sec5_div .info_div { opacity: 0; }
 section.sec5 .sec5_div.on .info_div { animation: fadeInDown 0.5s ease-in-out .3s 1 forwards running; }
 
 
+
+
+/* === PK_5 === */
+/* .PK_5 section.sec2 .sec2_div.on .sec2_img { animation: fadeIn 0.5s ease-in-out .4s 1 forwards running; } */
+.PK_5 section.sec2 .sec2_div ul.sec2_content1 { opacity: 0; }
+.PK_5 section.sec2 .sec2_div.on ul.sec2_content1 { animation: fadeIn 0.5s ease-in-out .2s 1 forwards running; }
+.PK_5 section.sec2 ul.sec2_content2 li:nth-child(1) { opacity: 0; }
+.PK_5 section.sec2 ul.sec2_content2.on li:nth-child(1) { animation: fadeIn 0.5s ease-in-out .1s 1 forwards running; }
+.PK_5 section.sec2 ul.sec2_content2 li:nth-child(2) { opacity: 0; }
+.PK_5 section.sec2 ul.sec2_content2.on li:nth-child(2) { animation: fadeIn 0.5s ease-in-out .2s 1 forwards running; }
+.PK_5 section.sec2 ul.sec2_content2 li:nth-child(3) { opacity: 0; }
+.PK_5 section.sec2 ul.sec2_content2.on li:nth-child(3) { animation: fadeIn 0.5s ease-in-out .3s 1 forwards running; }
+
+.PK_5 section.sec4 .sec4_div { opacity: 0; }
+.PK_5 section.sec4.on .sec4_div { animation: fadeIn 0.5s ease-in-out .3s 1 forwards running; }
+
+
+
+/* === PK_6 === */
+.PK_6 section.sec3 .prize_div .img_content1 .list1:nth-child(1) { opacity: 0; }
+.PK_6 section.sec3 .prize_div.on .img_content1 .list1:nth-child(1) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.PK_6 section.sec3 .prize_div .img_content1 .list1:nth-child(2) { opacity: 0; }
+.PK_6 section.sec3 .prize_div.on .img_content1 .list1:nth-child(2) { animation: fadeIn 0.5s ease-in-out .2s 1 forwards running; }
+.PK_6 section.sec3 .prize_div .img_content1 .list1:nth-child(3) { opacity: 0; }
+.PK_6 section.sec3 .prize_div.on .img_content1 .list1:nth-child(3) { animation: fadeIn 0.5s ease-in-out .4s 1 forwards running; }
+
+
+
 /* === PK_7 === */
 .PK_7 section.sec4 .pk_title_box .text_4 { opacity: 0; }
 .PK_7 section.sec4.on .pk_title_box .text_4 { animation: fadeInDown 0.5s ease-in-out .2s 1 forwards running; }
